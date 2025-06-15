@@ -26,10 +26,21 @@ export default function Contact() {
     return emailPattern.test(email);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
     let formIsValid = true;
     let newErrors = { name: '', email: '', message: '' };
+
+    try {
+      const response = await fetch('https://formspree.io/f/mwpbbndg',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+            body: JSON.stringify({formData})
+          })
+          
 
     // Validate each field
     if (!formData.name) {
@@ -57,6 +68,9 @@ export default function Contact() {
       console.log('Form submitted:', formData);
       setFormData({ name: '', email: '', message: '' }); // Clear the form
     }
+  } catch (error) {
+    console.error('Error Submitting Request', error)
+  }
   };
 
   return (
@@ -76,7 +90,7 @@ export default function Contact() {
         
 
         <input
-          type="input"
+          type="email"
           placeholder="Email"
           name="email"
           value={formData.email}
