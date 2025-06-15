@@ -44,7 +44,7 @@ li {
 
 /* ------------------------------------------PORTFOLIO TAB SPECIFIC STYLES */
 
-.projectOne { /*SQL Employee Tracker*/
+.projectOne { /*J.Stewart*/
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -54,14 +54,14 @@ li {
     margin-top: 20px;
     padding: 10px;
     text-align: center;
-    background-image: url('../../public/img/employee-tracker.jpg'); 
+    background-image: url('../../public/img/big_rig.jpg'); 
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
     height: 180px;
 }
 
-.projectTwo { /* README Generator */
+.projectTwo { /* A. Michael */
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -71,14 +71,14 @@ li {
     margin-top: 20px;
     padding: 10px;
     text-align: center;
-    background-image: url('../../public/img/readme-logo.jpg');
+    background-image: url('../../public/img/PSR06.jpg');
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
     height: 180px;
 }
 
-.projectThree { /* Golf Geek */
+.projectThree { /* B.Brockway */
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -88,7 +88,7 @@ li {
     margin-top: 20px;
     padding: 10px;
     text-align: center;
-    background-image: url('../../public/img/GolfgeekPhoto.jpg');
+    background-image: url('../../public/img/PSR02.jpg');
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
@@ -97,14 +97,14 @@ li {
 
 .project-name {
     color: white;
-    font-size: larger;
+    font-size: large;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
 }
 
 .project-description {
     color: white;
-    font-size: large;
+    font-size: larger;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
 }
@@ -190,7 +190,7 @@ input {
     .projectThree {
         font-size: 16px;
         padding: 5px;
-        height: 100px;
+        height: 200px;
         margin-top: 10px;
     }
 
@@ -199,6 +199,11 @@ input {
     .project-link {
         font-size: 16px;
         text-shadow: 1px 1px 2px black, 0 0 10px black, 0 0 2px darkgray;
+        margin-top: 70px;
+    }
+
+    .project-name {
+        margin-top: 0px;
     }
 
     #form {

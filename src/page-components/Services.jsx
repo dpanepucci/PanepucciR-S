@@ -5,7 +5,7 @@ export default function Skill() {
         <div>
           <h1 className="h1"></h1>
           <p className="main-para">
-        <a className="resume" href='/img/D.Panepucci-RN.jpg'>Click to view resume.</a>
+        {/* <a className="resume" href='/img/D.Panepucci-RN.jpg'>Click to view resume.</a> */}
           </p>
 
           <p className='skills'>Field Services:</p>

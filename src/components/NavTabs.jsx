@@ -22,7 +22,7 @@ function NavTabs() {
           // Portfolio Tab
           className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Images
+          Reviews
         </Link>
       </li>
       <li className="nav-item">
