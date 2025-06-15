@@ -198,7 +198,7 @@ input {
     .project-description,
     .project-link {
         font-size: 16px;
-        text-shadow: 1px 1px 2px black, 0 0 10px black, 0 0 2px darkgray;
+        text-shadow: 1px 1px 2px black, 0 0 10px black, 0 0 2px black;
         margin-top: 70px;
     }
 
