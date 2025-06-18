@@ -75,9 +75,8 @@ export default function Contact() {
 
   return (
     <div>
-      <h1 className="h1"></h1>
       <p className="main-para">
-        Submit a ticket, or for immediate help call the number listed above.
+        Submit a ticket. Or call for immediate help
       </p>
       <form id="form" onSubmit={handleSubmit}>
         <input
@@ -112,6 +111,25 @@ export default function Contact() {
         
         <button id="submit" type="submit">Submit</button>
       </form>
+
+      <a
+  href="tel:+17403914137"
+  style={{
+    display: 'inline-block',
+    background: '#007bff',
+    color: 'white',
+    fontWeight: 'bold',
+    textDecoration: 'none',
+    padding: '10px 24px',
+    borderRadius: '6px',
+    border: 'none',
+    textAlign: 'center',
+    cursor: 'pointer',
+    marginTop: '32px'
+  }}
+>
+  Call Now
+</a>
     </div>
   );
 }

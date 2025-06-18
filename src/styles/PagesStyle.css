@@ -34,6 +34,7 @@ text-shadow: 1px 1px 2px black;
 .skills {
     font-size: 35px;
     text-decoration: underline;
+    margin-top: 0px;
 }
 
 li {
@@ -199,11 +200,13 @@ input {
     .project-link {
         font-size: 16px;
         text-shadow: 1px 1px 2px black, 0 0 10px black, 0 0 2px black;
-        margin-top: 70px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .project-name {
         margin-top: 0px;
+        margin-bottom: 30px;
     }
 
     #form {
