@@ -67,6 +67,7 @@ export default function Contact() {
       // Handle successful form submission
       console.log('Form submitted:', formData);
       setFormData({ name: '', email: '', message: '' }); // Clear the form
+      window.alert('Request has successfully been submitted!');
     }
   } catch (error) {
     console.error('Error Submitting Request', error)
